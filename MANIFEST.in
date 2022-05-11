@@ -1,0 +1,2 @@
+recursive-include trame_vega/module/serve *.min.js *.css
+include trame_vega/LICENSE
