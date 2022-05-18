@@ -59,3 +59,8 @@ class Figure(AbstractElement):
         Serialize altair chart
         """
         return ENCODER(chart.to_dict())
+
+
+__all__ = [
+    "Figure",
+]
