@@ -17,17 +17,16 @@ ENCODER = encode if has_numpy else no_encoding
 
 
 class Figure(AbstractElement):
-    _next_id = 0
-
     """
     Create a Vega figure viewer element
 
     :param figure: Altair figure to show (default: None)
 
     >>> component1 = Figure(figure=fig1)
-    >>> component2 = Figure(fig2)
+    >>> component2 = Figure()
     >>> component2.update(fig1)
     """
+    _next_id = 0
 
     def __init__(self, figure=None, **kwargs):
         Figure._next_id += 1
@@ -43,6 +42,11 @@ class Figure(AbstractElement):
         self.update()
 
     def update(self, figure=None, **kwargs):
+        """
+        Update the `Figure <https://altair-viz.github.io/index.html>`_ with new content
+
+        :param figure: Altair chart object
+        """
         if figure:
             self._figure = figure
 
@@ -51,6 +55,7 @@ class Figure(AbstractElement):
 
     @property
     def key(self):
+        """Return the name of the state variable used internally"""
         return self._key
 
     @staticmethod
