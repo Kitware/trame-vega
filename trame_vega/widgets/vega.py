@@ -26,6 +26,7 @@ class Figure(AbstractElement):
     >>> component2 = Figure()
     >>> component2.update(fig1)
     """
+
     _next_id = 0
 
     def __init__(self, figure=None, **kwargs):
