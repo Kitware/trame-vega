@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v2.0.2 (2022-05-30)
+### Fix
+* **state:** Reserve state at creation ([`a267b53`](https://github.com/Kitware/trame-vega/commit/a267b53d0bf9e73593a83f53c1b04f432d3d8153))
+
 ## v2.0.1 (2022-05-27)
 ### Fix
 * Add CI including semantic release ([`702833d`](https://github.com/Kitware/trame-vega/commit/702833da5e25ae49b489d2ec7c131db9093370ac))
