@@ -36,6 +36,7 @@ class Figure(AbstractElement):
         super().__init__("vue-vega", **kwargs)
         if self.server:
             self.server.enable_module(module)
+            self.server.state[self._key] = None
 
         self._attributes["name"] = f'name="{self._key}"'
         self._attributes["spec"] = f':spec="{self._key}"'
