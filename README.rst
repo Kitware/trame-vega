@@ -1,6 +1,10 @@
 Vega visual grammar for trame
 ===========================================================================
 
+.. image:: https://github.com/Kitware/trame-vega/actions/workflows/test_and_release.yml/badge.svg
+    :target: https://github.com/Kitware/trame-vega/actions/workflows/test_and_release.yml
+    :alt: Test and Release
+
 trame-vega extend trame **widgets** with a Figure component that is capable of rendering Vega grammars such as `Altair <https://altair-viz.github.io/>`__ plots.
 
 Installing
