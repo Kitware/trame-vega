@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v2.1.0 (2024-01-05)
+
+### Feature
+
+* **v5:** Update vega to support v5 spec ([`6384226`](https://github.com/Kitware/trame-vega/commit/63842261bc0cea496338ab55058e20cf938f6e66))
+
 ## v2.0.3 (2023-02-23)
 ### Fix
 * **version:** Add __version__ ([`c39c823`](https://github.com/Kitware/trame-vega/commit/c39c8237fea83d9df3b2603e1ba92cca3ebad3fa))
