@@ -41,4 +41,5 @@ export default {
   beforeDestroy() {
     this.unmoutViz();
   },
+  template: `<div></div>`,
 };
