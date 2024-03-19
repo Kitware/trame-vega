@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v2.1.1 (2024-03-19)
+
+### Fix
+
+* **vue3:** Add vue3 compatibility ([`3c4916c`](https://github.com/Kitware/trame-vega/commit/3c4916ce45848fe92693eb139a6dadb923744e8e))
+
 ## v2.1.0 (2024-01-05)
 
 ### Feature
