@@ -1,4 +1,6 @@
-Vega visual grammar for trame
+.. |pypi_download| image:: https://img.shields.io/pypi/dm/trame-vega
+
+Vega visual grammar for trame |pypi_download|
 ===========================================================================
 
 .. image:: https://github.com/Kitware/trame-vega/actions/workflows/test_and_release.yml/badge.svg
