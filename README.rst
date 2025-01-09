@@ -83,3 +83,10 @@ The Python interface of `Altair provide examples <https://altair-viz.github.io/>
     # Display it
     widget = vega.Figure(figure=None) # could pass fig at construction
     widget.update(fig) # or update later
+
+
+JavaScript dependency
+-----------------------------------------------------------
+
+This Python package bundle the ``vega@5.27.0``, ``vega-embed@6.24.0`` and ``vega-lite@5.16.3`` JavaScript libraries. If you would like us to upgrade it, `please reach out <https://www.kitware.com/trame/>`_.
+        
